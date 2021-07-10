@@ -1,0 +1,78 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0x4acddb573aa07e85Bef3E0baF374342e2B772025",
+    "txHash": "0xd122db92e89b0c9d374c4db2d26e39fef1a51001702f455227c6843f3aa12991"
+  },
+  "proxies": [
+    {
+      "address": "0xE1E64672eef7C13CbD8628AfdcBA9f4D9eA25715",
+      "txHash": "0xb9134f6318ac3f2c9dbd507dacd8db7185ecbb5456e558e82ebfdd0cf9c35204",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x6a037162e190518C294564a6B1B594e92061c576",
+      "txHash": "0x349282547ea5d7971921468232a67c910c4620dc4a9ab65582dc967ff31efe5b",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "925ac28bbf9839bef9f86ec5b41ec3785d913ce448340c01b8751ecba4a82e6f": {
+      "address": "0x202747769a746b991255f039924224789fA4C0e1",
+      "txHash": "0x545578599baec5bcd63be60c516144c845b4a2b0f1081d2aa1162b12021bade2",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Box",
+            "label": "_value",
+            "type": "t_uint256",
+            "src": "Box.sol:5"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          }
+        }
+      }
+    },
+    "0e277a43b879400f5d785e82d023f51c2a422bd22b5330adc2b2d137648624e5": {
+      "address": "0xDE5b67fC00165CfF2a2C3Bb90bb03df62de9E76a",
+      "txHash": "0x17ddd42759ce55143fc8e241842698d55d328ad2b0c2b61c2d26b009a6636e1b",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Box",
+            "label": "_value",
+            "type": "t_uint256",
+            "src": "Box.sol:5"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          }
+        }
+      }
+    },
+    "01c3ba37320016517cdb11c3854419e58447d3987ca7ee58cc7d8498e0984ab2": {
+      "address": "0x0F6b1a46AA045A6B37c093d0E4B55616Fec14d32",
+      "txHash": "0x7ce7e9267fb7ca9d5961c5b024cbaf70a5b61fbee33822c149b1271796ddfbda",
+      "layout": {
+        "storage": [
+          {
+            "contract": "BoxV2",
+            "label": "_value",
+            "type": "t_uint256",
+            "src": "Box.sol:5"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          }
+        }
+      }
+    }
+  }
+}
